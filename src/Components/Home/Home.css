@@ -1,0 +1,113 @@
+.j{
+    display: flex;
+    height: 100vh;
+    background-color: #1f2f98;
+}
+.j-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.j-left{
+    flex: 1;
+    position: relative;
+}
+.j-desc{
+    color: white;
+}
+.j-right-wrapper{
+    padding: 30px;
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.j-intro{
+    font-size:32px;
+    font-weight: 300;
+    color:white;
+}
+.j-name{
+    font-size: 50px;
+    color:#FB7B8E;
+}
+.j-title{
+    height: 40px;
+    overflow: hidden;
+}
+button{
+    width:50px;
+    height:50px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.j-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    75% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.j-title-item{
+    height: 50px;
+    padding: 7px;
+    font-size:32px;
+    font-weight: bold;
+    color: #F04393;
+    display:flex;
+    align-items: center;
+}
+.j-img{
+    width: 50%;
+    height: 50%;
+    object-fit:fill;
+    position: absolute;
+}
+.j-bg{
+   clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    background-color: crimson;
+    width:60%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 480px){
+    .j {
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    button{
+        width:30px;
+        height:30px;
+
+    }
+    .j-right wrapper {
+
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height:100%;
+    }
+    .j-desc{
+        display: none;
+    }
+}
