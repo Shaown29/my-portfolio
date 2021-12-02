@@ -74,3 +74,29 @@
         padding:20px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left{
+        width: 100%;
+    }
+    .a-card{
+        height: 30vh;
+    }
+    .a-card.bg{
+        display: none;
+    }
+    .a-img{
+        width:50%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .a-right{
+        padding:20px;
+    }
+}

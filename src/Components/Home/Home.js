@@ -28,7 +28,6 @@ const Home = () => {
                     </div>
                     <p className='j-desc'>
                         I am a web developer. I have done some projects.I know the basic and If I have the oppurtunity to work I will work hard.
-                        
                     </p>
                      
                 </div>

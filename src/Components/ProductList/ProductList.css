@@ -62,3 +62,32 @@
         
     }
 }
+
+
+@media screen and (max-width: 768px){
+    .p{
+        width: 40%;
+        height: 30vh;
+    }
+    .p-img{
+        width:40%;
+        height:40%;
+    }
+    .p-browser{
+        height:10px;
+    }
+    .p-circle{
+        width: 4px;
+        height: 4px;
+    }
+    .btn{
+        background-color: red;
+        font-weight: 300;
+        width:50px;
+        height:50px;
+        text-align: center;
+        padding: 2px;
+        margin: 2px;
+        
+    }
+}
