@@ -1,6 +1,6 @@
 .p{
-    width:30%;
-    height: 40vh;
+    width:60%;
+    height: 45vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
@@ -8,7 +8,7 @@
 }
 .p-browser{
     height: 20px;
-    background-color:rgb(243, 242, 242);
+    background-color:black;
     display: flex;
     align-items:center ;
 }
@@ -17,10 +17,10 @@
     height: 6px;
     border-radius: 50%;
     margin: 3px;
-    background-color: black;
+    background-color: white;
 }
 .p-img{
-    width:60%;
+    width:100%;
     height:50%;
     overflow: hidden;
 }
@@ -41,7 +41,7 @@
         height: 30vh;
     }
     .p-img{
-        width:40%;
+        width:100%;
         height:40%;
     }
     .p-browser{
@@ -70,7 +70,7 @@
         height: 30vh;
     }
     .p-img{
-        width:40%;
+        width:100%;
         height:40%;
     }
     .p-browser{

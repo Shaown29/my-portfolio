@@ -7,31 +7,24 @@ import MyBlog from "./Components/MyBlog/MyBlog";
 import Navbar from "./Components/Navbar/Navbar";
 import Project from "./Components/Project/Project";
 
-
-
 function App() {
   return (
-    <div >
-       
+    <div>
       <Router>
-      <Navbar></Navbar>
-      <Home></Home>
-      <About></About>
-      <MyBlog></MyBlog>
-      <Project></Project>
-      <Contact></Contact>
-      <Switch>
-        <Route path='/details/:Id'>
-          <Details></Details>
-        </Route>
-      </Switch>
+        <Switch>
+          <Route exact path="/">
+            <Navbar />
+            <Home />
+            <About />
+            <MyBlog />
+            <Project />
+            <Contact />
+          </Route>
+          <Route exact path="/details/:Id">
+            <Details />
+          </Route>
+        </Switch>
       </Router>
-     
-      
-      
-     
-     
-     
     </div>
   );
 }

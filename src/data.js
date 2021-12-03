@@ -6,9 +6,9 @@ export const ProjectList = [
       liveLink:"https://assignment-12-6769f.web.app/",
       gitRepo:"https://github.com/Shaown29/myAssignment",
       img: [
-        "/image/screencapture-assignment-12-6769f-web-app-2021-11-30-19_26_07.png",
-        "/image/assignment12(2).png",
-        "/image/assignment12(3).png",
+        "/image/screencapture-assignment-12-6769f-web-app-2021-11-30-19_26_07.jpg",
+        "/image/assignment12(2).jpg",
+        "/image/assignment12(3).jpg",
       ],
     },
     {
@@ -18,9 +18,9 @@ export const ProjectList = [
       liveLink: "https://tour-guide-bbb62.web.app/",
       gitRepoClient: "https://github.com/Shaown29/tour-guide",
       img: [
-        "/image/screencapture-tour-guide-bbb62-web-app-2021-11-30-19_27_49.png",
-        "/image/assignment11(2).png",
-        "/image/assignment11(3).png",
+        "/image/screencapture-tour-guide-bbb62-web-app-2021-11-30-19_27_49.jpg",
+        "/image/assignment11(2).jpg",
+        "/image/assignment11(3).jpg",
       ],
     },
     {
@@ -30,9 +30,9 @@ export const ProjectList = [
       liveLink: "https://shaown-assignment-9.netlify.app/",
       gitrepo: "https://github.com/Shaown29/top-four-language",
       img: [
-        "/image/screencapture-shaown-assignment-9-netlify-app-2021-11-30-19_28_52.png",
-        "/image/assignment9(2).png",
-        "/image/assignment9(3).png",
+        "/image/screencapture-shaown-assignment-9-netlify-app-2021-11-30-19_28_52.jpg",
+        "/image/assignment9(2).jpg",
+        "/image/assignment9(3).jpg",
       ],
     },
     {
@@ -42,9 +42,9 @@ export const ProjectList = [
       liveLink:"https://assingment-8shaownabir.netlify.app/",
       gitRepo:"https://github.com/Shaown29/top-10-university-ranking",
       img: [
-        "/image/screencapture-assingment-8shaownabir-netlify-app-2021-11-30-19_29_44.png",
-        "/image/assignment8(2).png/",
-        "/image/assignment8(3b).png",
+        "/image/screencapture-assingment-8shaownabir-netlify-app-2021-11-30-19_29_44.jpg",
+        "/image/assignment8(2).jpg",
+        "/image/assignment8(3b).jpg",
       ],
     },
     {
@@ -54,9 +54,9 @@ export const ProjectList = [
       liveLink:"https://assingment7-shaown29.netlify.app/",
       gitRepo:"https://github.com/Shaown29/e-commerce-my-store",
       img: [
-        "/image/screencapture-assingment7-shaown29-netlify-app-2021-11-30-19_30_39.png",
-        "/image/assignment7(2).png",
-        "/image/assignment7(3).png",
+        "/image/screencapture-assingment7-shaown29-netlify-app-2021-11-30-19_30_39.jpg",
+        "/image/assignment7(2).jpg",
+        "/image/assignment7(3).jpg",
       ],
     },
   ];

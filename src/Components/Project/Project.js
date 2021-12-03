@@ -4,6 +4,8 @@ import './Project.css';
 import {ProjectList} from '../../data';
 
 const Project = () => {
+    // console.log("ProjectList", ProjectList);
+
     return (
         <div id='project' className='pl'>
             <div className='pl-texts'>
@@ -14,9 +16,9 @@ const Project = () => {
             </div>
             <div className='pl-list'>
                 
+                {/* <ProductList key={item.id} img={item.img[0]} name={item.name} id={item.id}/> */}
                 {ProjectList?.map(item => (
-                    // <ProductList key={item.id} img={item.img[0]} name={item.name} id={item.id}/>
-                    <div key={item.id} >
+                    <div key={item.id}>
                         <ProductList data={item}/>
                     </div>
                 ))}
