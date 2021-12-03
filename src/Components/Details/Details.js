@@ -19,9 +19,11 @@ const Details = () => {
           <p> Project Desc: {project.desc}</p>
           <p> Project livesite: {project.liveLink}</p>
           <p>Project Repo: {project.gitRepo}</p>
+          <div>
           {project.img.map((img, i) => (
-            <img className="image-size" src={img} key={i} alt=""/> 
+            <img className="image-size mt-5" src={img} key={i} alt=""/> 
           ))}
+          </div>
           </div>
           
         

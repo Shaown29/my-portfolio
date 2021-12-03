@@ -16,7 +16,7 @@ export const ProjectList = [
       name: "Tour guide",
       desc:".This is a touring guide site  .If you want to book any place for touring you need to log in first  .After login, you can book but you need to give your information  .On this website, you can also delete your order  .On this website will find best thing in this website to tour the world",
       liveLink: "https://tour-guide-bbb62.web.app/",
-      gitRepoClient: "https://github.com/Shaown29/tour-guide",
+      gitRepo: "https://github.com/Shaown29/tour-guide",
       img: [
         "/image/screencapture-tour-guide-bbb62-web-app-2021-11-30-19_27_49.jpg",
         "/image/assignment11(2).jpg",
@@ -28,7 +28,7 @@ export const ProjectList = [
       name: "Top four programming Language ",
       desc:"In here I showed top four language to learn in 2021. But I prefer one and that is the best language to learn  .If you click services then it will show some website online courses which I recommended on the language I prefer to be the best among four  .If you want to know click services  .In About us section I give reason and about me  . In description section I describe little bit about the language that I prefer.",
       liveLink: "https://shaown-assignment-9.netlify.app/",
-      gitrepo: "https://github.com/Shaown29/top-four-language",
+      gitRepo: "https://github.com/Shaown29/top-four-language",
       img: [
         "/image/screencapture-shaown-assignment-9-netlify-app-2021-11-30-19_28_52.jpg",
         "/image/assignment9(2).jpg",
